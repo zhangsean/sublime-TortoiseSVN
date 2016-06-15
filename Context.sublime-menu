@@ -1,15 +1,14 @@
 [
 	{ "caption": "-" },
+	{ "caption": "SVN 更新", "command": "svn_update", "args": {"paths":[]}},
+	{ "caption": "SVN 提交", "command": "svn_commit", "args": {"paths":[]}},
 	{ "caption": "SVN",
-
 	"children":
 	[
 		{ "caption": "-" },
 
 		{ "caption": "增加", "command": "svn_add", "args": {"paths":[]}},
-		{ "caption": "更新", "command": "svn_update", "args": {"paths":[]}},
 		{ "caption": "差异", "command": "svn_diff", "args": {"paths":[]}, },
-		{ "caption": "提交", "command": "svn_commit", "args": {"paths":[]}},
 		{ "caption": "还原", "command": "svn_revert", "args": {"paths":[]}},
 
 		{ "caption": "-" },
@@ -24,6 +23,5 @@
 
 		{ "caption": "-" }
 	]},
-
 	{ "caption": "-", "id": "end" }
 ]
