@@ -2,6 +2,7 @@
 	{ "caption": "-" },
 	{ "caption": "SVN 更新", "command": "svn_update", "args": {"paths":[]}},
 	{ "caption": "SVN 提交", "command": "svn_commit", "args": {"paths":[]}},
+	{ "caption": "SVN 日志", "command": "svn_log", "args": {"paths":[]}},
 	{ "caption": "SVN",
 	"children":
 	[
@@ -13,7 +14,6 @@
 
 		{ "caption": "-" },
 
-		{ "caption": "日志", "command": "svn_log", "args": {"paths":[]}},
 		{ "caption": "追溯", "command": "svn_blame", "args": {"paths":[]}},
 
 		{ "caption": "-" },
